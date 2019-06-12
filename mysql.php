@@ -16,3 +16,8 @@ sex VARCHAR(10),
 create_date TIMESTAMP,
 modefied_date VARCHAR(50)
 )
+
+
+
+<!-- Insert Data -->
+INSERT INTO `user_table` (`user_id`, `name`, `email`, `phone`, `dob`, `sex`, `create_date`, `modified_date`) VALUES (NULL, 'AB', 'utnal.ab@gmail.com', '8722222996', '12/02/2018', 'Male', CURRENT_TIMESTAMP, '');
